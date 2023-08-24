@@ -59,3 +59,13 @@ def remove_node(self, value_to_remove):
                 current_node = None  # Exit the loop by setting current_node to None
             else:
                 current_node = next_node  # Move to the next_node for further checking
+
+
+
+
+# Test your code by uncommenting the statements below - did your list print to the terminal?
+ll = LinkedList(5)  # Create a LinkedList with a head node of value 5
+ll.insert_beginning(70)  # Insert a new node at the beginning with value 70
+ll.insert_beginning(5675)  # Insert another node at the beginning with value 5675
+ll.insert_beginning(90)  # Insert yet another node at the beginning with value 90
+print(ll.stringify_list())  # Print the values in the LinkedList
